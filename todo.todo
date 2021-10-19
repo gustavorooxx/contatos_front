@@ -1,0 +1,29 @@
+☐ Fazendo que os cards sejam dinâmicos:
+    ✔ Criar um arquivo contatos.js @done(21-10-18 20:11)
+    ✔ Adicionar no home.html o script 'contatos.js' @done(21-10-18 20:11)
+    ✔ No html 'home' criar um id para o 'main' com o nome 'cardsContatos' @done(21-10-18 20:11)
+    ✔ Criar uma função 'carregaContatos(contatos)' @done(21-10-18 20:11)
+    ✔ Criar uma variável 'cardsContatos' que carrega os elemetos do id='cardsContatos' @done(21-10-18 20:11)
+    ✔ Utilizar manipulação de DOM para substituir o elemento do id='cardsContatos' com o html abaixo @done(21-10-18 20:11)
+    let cardContatoNaolocalizadoHtml = `<section>
+        <h3>Não há contatos cadastrados</h3>
+        </section>`
+    ✔ Chamar a função carregaContatos() @done(21-10-18 20:11)
+    //Dicas 'getElementById'
+
+☐ Fazendo que as informações "nome e email" dos cards sejam dinâmicas:
+    ✔ Adicionar no início do arquivo contatos.js o array abaixo @done(21-10-18 20:11)
+    let bdContatos = [{nome:"iago",email:"iago@digitalhouse.com" , telefones:[79991916565,7965652121]},
+            {nome:"Sergio",email:"Sergio@digitalhouse.com" , telefones:[8191656565,8165651414]}]
+    ✔ Passar no parâmetro da função carregaContatos o array bdContatos @done(21-10-18 20:26)
+    ✔ Verificar se há contatos no array do parâmetro da função @done(21-10-18 20:55)
+    ✔ Se não há contatos exibir, apenas o cardContatoNaolocalizadoHtml @done(21-10-18 21:19)
+    ✔ Se há contatos, os card devem exibir o nome e o email informado no array @done(21-10-18 21:19)
+    //Dicas utilizar 'if', 'for of' , '${}' , '+=', 
+
+☐ Fazendo que as informações dos telefones sejam dinâmicas:
+    ☐ Criar uma variável 'telefonesHtml' que concatena apenas os <li></li> com suas informações
+    ☐ Adicionar a variável telefonesHtml ao  <ul>   </ul>
+    //Dicas utilizar 'for of' , '${}' , '+='
+
+    
