@@ -98,16 +98,18 @@ main section ul li a:hover{
     background-color:  #333;
 }
 
-main section > a{
+main section div{
+    display: flex;
+    justify-content: space-between;
+}
+
+main section div > a{
     color: #fff;
     text-decoration: none;
     cursor: pointer;
     background-color: rgb(60, 0, 200);
     padding: 5px 10px;
     font-size: 0.8rem;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
 }
 
 #modal {
