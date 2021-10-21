@@ -55,6 +55,10 @@ input[type=password]:focus{
     background-color: rgba(256,256,256,1);
 }
 
+input.erro , input.erro:focus{
+    background-color: rgb(255, 182, 98);
+}
+
 button {
     border: none;
     cursor: pointer;
